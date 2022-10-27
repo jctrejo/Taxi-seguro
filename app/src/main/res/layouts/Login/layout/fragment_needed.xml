@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context=".Activities.needed.NeededFragment">
+
+    <TextView
+        android:id="@+id/typeAssistenceTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/iTakeYouTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_bolditalic"
+        android:textColor="@color/black_01"
+        app:layout_constraintEnd_toEndOf="@+id/typeAssistenceTextView"
+        app:layout_constraintStart_toStartOf="@+id/typeAssistenceTextView"
+        app:layout_constraintTop_toBottomOf="@+id/typeAssistenceTextView" />
+
+    <Button
+        android:id="@+id/nextAssistenceButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/btn_gradient_blue_vertical_radiu"
+        android:text="@string/data_assistence_next"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneAssistenceTextView" />
+
+    <TextView
+        android:id="@+id/textViewSubTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/data_assistence_description"
+        android:textAlignment="center"
+        android:textColor="@color/bg_black_last_event"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/dateAssistenceEditText"
+        app:layout_constraintStart_toStartOf="@+id/dateAssistenceEditText"
+        app:layout_constraintTop_toBottomOf="@+id/dateAssistenceEditText" />
+
+    <EditText
+        android:id="@+id/dateAssistenceEditText"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/bg_gray_blue"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/data_assistence_what"
+        android:inputType="textMultiLine"
+        android:text="@string/data_assistence_i_need_help"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/iTakeYouTextView"
+        app:layout_constraintStart_toStartOf="@+id/iTakeYouTextView"
+        app:layout_constraintTop_toBottomOf="@+id/iTakeYouTextView" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_bolditalic"
+        android:text="@string/data_assistence_phone"
+        android:textColor="@color/bg_black_last_event"
+        app:layout_constraintEnd_toEndOf="@+id/textViewSubTitle"
+        app:layout_constraintStart_toStartOf="@+id/textViewSubTitle"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTitle" />
+
+    <EditText
+        android:id="@+id/phoneAssistenceTextView"
+        style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/black_stroke_margin"
+        android:fontFamily="@font/montserrat_bold"
+        android:hint="@string/data_assistence_phone"
+        android:inputType="phone"
+        android:text="1234566545"
+        android:textColor="@color/bg_black_last_event"
+        android:textColorHint="@color/button_black_transparent"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView68"
+        app:layout_constraintStart_toStartOf="@+id/textView68"
+        app:layout_constraintTop_toBottomOf="@+id/textView68" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

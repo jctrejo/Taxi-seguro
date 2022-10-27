@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container_taxi"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/btn_gradient_black_image"
+        android:elevation="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/nameTaxiTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Hola soy"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView20" />
+
+        <ImageView
+            android:id="@+id/photoTaxiImageView"
+            android:layout_width="75dp"
+            android:layout_height="100dp"
+
+            android:scaleType="centerCrop"
+            android:shadowColor="@color/black"
+
+            android:shadowDx="2"
+            android:shadowDy="5"
+            android:shadowRadius="10"
+            app:layout_constraintStart_toStartOf="@+id/nameTaxiTextView"
+            app:layout_constraintTop_toBottomOf="@+id/nameTaxiTextView"
+            app:srcCompat="@drawable/ic_logo_empresa" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/profile_taxi_site"
+            android:textColor="@color/bg_gray"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@+id/photoTaxiImageView"
+            app:layout_constraintTop_toBottomOf="@+id/photoTaxiImageView" />
+
+        <TextView
+            android:id="@+id/nameSiteTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Morelos"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            app:layout_constraintBottom_toBottomOf="@+id/textView30"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView30"
+            app:layout_constraintTop_toTopOf="@+id/textView30" />
+
+        <Button
+            android:id="@+id/callTaxiButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:background="@android:drawable/stat_sys_phone_call"
+            android:textColor="#FFFFFE"
+            android:textSize="10sp"
+            app:layout_constraintStart_toEndOf="@+id/whatsAppButton"
+            app:layout_constraintTop_toTopOf="@+id/photoTaxiImageView" />
+
+        <TextView
+            android:id="@+id/scheduleTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="8 Hrs"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView30"
+            app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:scaleType="centerCrop"
+            android:tint="@color/cardview_dark_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_taxi_separator" />
+
+        <Button
+            android:id="@+id/whatsAppButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/ic_whatsapp"
+            android:scaleType="centerCrop"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/callTaxiButton"
+            app:layout_constraintStart_toEndOf="@+id/photoTaxiImageView"
+            app:layout_constraintTop_toTopOf="@+id/callTaxiButton" />
+
+        <ImageView
+            android:id="@+id/isAvailableImageView"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/callTaxiButton"
+            app:layout_constraintTop_toBottomOf="@+id/nameTaxiTextView"
+            app:srcCompat="@drawable/btn_gradient_green_corner" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

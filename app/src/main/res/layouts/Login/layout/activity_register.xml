@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.register.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="0dp"
+        android:layout_height="500dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_bg_curver_color" />
+
+    <TextView
+        android:id="@+id/titleRegister"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/register_title"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="false"
+        android:textColorHint="@color/white"
+        app:boxStrokeColor="@color/white"
+        app:hintTextColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutName">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/input_birth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:fontFamily="@font/montserrat_medium"
+            android:hint="@string/register_date"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="false"
+        android:textColorHint="@color/white"
+        app:boxStrokeColor="@color/white"
+        app:hintTextColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleRegister">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:fontFamily="@font/montserrat_medium"
+            android:hint="@string/name"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <View
+        android:id="@+id/viewClickeable"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textInputLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textInputLayout" />
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linearLayoutCompat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21">
+
+        <RelativeLayout
+            android:id="@+id/femaleGenderButton"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/gender_button_border"
+            android:padding="10dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/femaleImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/ic_female_off" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/femaleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:text="@string/female_option"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/maleGenderButton"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/gender_button_border"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/maleImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/ic_male_off" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/maleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:text="@string/male_option"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    <Button
+        android:id="@+id/nextRegisterButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_gradient_blue"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="@string/register_next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="392dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="@string/register_gender"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

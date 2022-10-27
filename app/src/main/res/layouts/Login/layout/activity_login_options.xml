@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_loader_facebook"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/delivery_motorbike" />
+
+    <TextView
+        android:id="@+id/welcome_text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="@string/login_title"
+        android:textSize="28dp"
+        android:theme="@style/TextViewMediumBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animation_loader_facebook" />
+
+    <TextView
+        android:id="@+id/welcome_text_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="@string/login_subtitle"
+        android:textSize="16dp"
+        android:theme="@style/TextViewRegularBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_text_1" />
+
+    <Button
+        android:id="@+id/laterButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/blue_stroke_margin"
+        android:text="Omitir"
+
+        android:textColor="@color/colorPrimary"
+        android:theme="@style/ButtonRoundedClearBlue"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_next_login" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/face_access"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:freezesText="false"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text=""
+        android:visibility="gone"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/email_edit_text"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/gray_btn_margin"
+        android:ems="10"
+        android:hint="@string/register_email"
+        android:inputType="textPersonName"
+        android:paddingStart="@dimen/size_padding_margin_20"
+        android:textColor="@color/black"
+        android:textColorHint="@color/color_hint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_text_2" />
+
+    <EditText
+        android:id="@+id/password_edit_text"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gray_btn_margin"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPersonName|textPassword"
+        android:paddingStart="@dimen/size_padding_margin_20"
+        android:textColor="@color/black"
+        android:textColorHint="@color/color_hint"
+        app:passwordToggleEnabled="true"
+        app:layout_constraintEnd_toEndOf="@+id/email_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/email_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/email_edit_text" />
+
+    <Button
+        android:id="@+id/btn_next_login"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/blue_stroke_margin"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toEndOf="@+id/password_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/password_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/password_edit_text"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_sign_in"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/blue_stroke_margin"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toEndOf="@+id/btn_next_login"
+        app:layout_constraintStart_toStartOf="@+id/btn_next_login"
+        app:layout_constraintTop_toBottomOf="@+id/btn_next_login"
+        tools:text="@string/sign_up" />
+</androidx.constraintlayout.widget.ConstraintLayout>

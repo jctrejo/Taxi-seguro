@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "962080790124",
+    "project_id": "taxis-8e1c2",
+    "storage_bucket": "taxis-8e1c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962080790124:android:d5c147a80368e90f636a49",
+        "android_client_info": {
+          "package_name": "com.seguro.taxis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962080790124-1jn7q7qc1d7ivfnnkshliv827sgks4kn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa38zB_VU1E_sY-cX3P0ku6nhtLgYAhRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962080790124-1jn7q7qc1d7ivfnnkshliv827sgks4kn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="primaryTextColor">#000000</color>
+        <color name="secondary_text_dark">#666666</color>
+        <color name="bg_gray">#F2F2F2</color>
+        <color name="button_gray">#B2AFAD</color>
+        <color name="colorPrimary">#F0D032</color>
+        <color name="colorPrimaryDark">#EDEB4F</color>
+        <color name="colorPrimaryLight">#FFF8E1</color>
+        <color name="secondaryLightColor">#F3F16F</color>
+        <color name="background_light">#FFF8E1</color>
+        <color name="white">#FFFFFF</color>
+        <color name="black">#000000</color>
+        <color name="gray">#e1e1e1</color>
+        <color name="transparent">#00e1e1e1</color>
+        <color name="colorSubTitle">#D8DFE2</color>
+        <color name="colorSubTitleFondo">#ABB6AFAF</color>
+        <color name="color_hint">#BFBEBE</color>
+
+        <!-- bg -->
+        <color name="degrade_turquoise">#BBC16F</color>
+        <color name="degrade_turquoise_dark">#486687</color>
+        <color name="yellow_01">#D69204</color>
+        <color name="yellow_02">#FFD200</color>
+        <color name="red_01">#FA0000</color>
+        <color name="red_02">#6B0101</color>
+        <color name="black_01">#191924</color>
+        <color name="black_02">#01011A</color>
+
+        <!-- Button -->
+        <color name="button_black_transparent">#600E0D0D</color>
+        <color name="bg_black_last_event">#970E0D0D</color>
+        <color name="bg_gray_blue">#BEF7F8FC</color>
+        <color name="bg_gray_dark">#707173</color>
+        <color name="button_green_01">#007A00</color>
+        <color name="button_green_02">#75F775</color>
+        <color name="colorGrey">#C9C9C9</color>
+
+        <!-- ImageProfile -->
+        <color name="imagen_profile_clear">#000E0D0D</color>
+        <color name="imagen_profile_black">#BE0E0D0D</color>
+</resources>

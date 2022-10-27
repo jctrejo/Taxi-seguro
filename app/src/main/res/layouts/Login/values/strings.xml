@@ -1,0 +1,268 @@
+<resources>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">Esta aplicación necesita algunos permisos.</string>
+
+    <!--Configuracion -->
+    <string name="terms_and_conditions">1. TITULARIDAD\n\n
+El presente acuerdo contiene los términos y condiciones que se aplican a su participación en nuestro sitio www.mandaditosdvolada.com (en adelante, "Mandaditos D-Volada", "Mandaditos D-Volada.com", "nosotros", "nos" o "nuestro " “sito web”) y la aplicación Mandaditos D-Volada, cuyo titular es Linkers Consulting.
+Si quieres ponerte en contacto con Mandaditos D-Volada puedes dirigirte a linkersconsultingdma@mgmail.com\n\n
+
+2. OBJETO DEL SITIO WEB.\n\n
+Mandaditos D-Volada es una plataforma “online” que conecta a tiendas de tu ciudad (en adelante" los miembros" o “usuarios”) con amantes de las compras con el fin de conectar a sus a usuarios por medio de una red social especializada para los compradores.
+Los usuarios pueden conectarse al sitio web y encontrar una variedad de cupónes para optener descuentos.\n\n
+
+3. ACEPTACIÓN DE LOS TÉRMINOS Y CONDICIONES.\n\n
+Los presentes términos y condiciones constituyen un acuerdo entre usted y Mandaditos D-Volada, y reemplazan todos los acuerdos anteriores, representaciones, garantías o entendimientos con respecto al sitio, el contenido proporcionado en el sitio y la aplicación, y el objeto del presente contrato.\n\n
+Si desea convertirse en un miembro de Mandaditos D-Volada y conectar con otros miembros, por favor lea estas condiciones de uso antes de utilizar nuestro sitio y los servicios ofrecidos en el mismo. Al acceder a este sitio o utilizar cualquier parte del sitio o cualquier contenido o servicios ofrecidos en el mismo, usted entiende y acepta estos términos y condiciones.\n\n
+El uso del sitio Mandaditos D-Volada o de la aplicación, implica su aceptación de los presentes términos y condiciones.\n\n
+A los efectos de interpretar los presentes términos y condiciones se tendrán en cuenta las siguientes definiciones:\n\n
+"sitio" significa el sitio web, Mandaditos D-Volada.com o la aplicación móvil de Mandaditos D-Volada.\n\n
+"contenido" fotos, imágenes gráficas, textos, documentos, uploads (contenido subido a nuestra plataforma) o información guardada en el sitio, software, música, audio, video, documentos, datos u otros materiales.\n\n
+"miembro" cualquier persona que complete el proceso de registro en Mandaditos D-Volada.\n\n
+"servicios" significa cualquiera de los servicios ofrecidos en el sitio.\n\n
+Los términos y condiciones pueden ser modificados en cualquier momento al arbitrio de Mandaditos D-Volada como lo considere pertinente.\n\n
+
+4. MAYORIA DE EDAD.\n\n
+Este sitio web, incluyendo sus herramientas, aplicaciones y servicios están destinados únicamente para el acceso y uso de personas mayores de dieciocho (18) años.\n\n
+Al acceder y utilizar nuestro sitio web, incluyendo sus herramientas, aplicaciones y servicios, usted manifiesta y garantiza que tiene al menos dieciocho (18) años de edad y que tiene plena autoridad, derechos y las capacidades para entrar en este acuerdo y cumplir con todos los términos y condiciones de este acuerdo.\n\n
+
+5. USO DEL SITIO Y PROHIBICIONES\n\n
+El sitio y los servicios constituyen una plataforma “online” a través de la cual se pueden crear perfiles de compras o adquirir los cupones, así como subir fotos, videos, crear eventos para invitar otros canes, enviar y recibir mensajes por mensaje privado para usted, crear grupos para los las tiendas, ubicar y contactar servicios cercanos, registrar visitas de clientes, compartir información en las redes sociales, aprender acerca de organizaciones socialmente responsables de canes, recibir promociones, y los dueños de perros pueden aprender acerca de estos servicios.\n\n
+Usted entiende y acepta que Mandaditos D-Volada no forma parte de las relaciones suscritas entre los propietarios de perros y de otros miembros. Mandaditos D-Volada no tiene control sobre la conducta de los dueños de los perros (y sus respetivos perros) o cualquier otro usuario del sitio y de los servicios, y se exime de cualquier responsabilidad al respecto.\n\n
+Usted se compromete a utilizar el sitio y los servicios de conformidad con todas las leyes, normas y reglamentos que se aplican en México y con buena fe.\n\n
+Usted puede ver, descargar e imprimir páginas u otros contenidos del sitio web para su uso personal, siempre sujeto a las restricciones que se establecen a continuación y en otras partes del presente acuerdo:\n\n
+(a) Usted no debe usar nuestro sitio, si es menor de dieciocho (18) dieciocho años de edad. De ser así, el uso de la aplicación o el sitio Mandaditos D-Volada, debe ser bajo supervisión y autorización de un adulto.\n\n
+(b) Usted no debe subir ningún tipo de información, elementos, mensaje y contenido que sea inapropiado y no respete el sentido de la decencia y/o que sea ofensivo hacia otras personas.\n\n
+(c) Usted no debe utilizar este sitio con fines comerciales algunos, salvo bajo autorización escrita de Mandaditos D-Volada.
+(d) Usted no debe reproducir, distribuir, comunicar públicamente, publicar, vender, alquilar volver a publicar, vender, alquilar o sub-licenciar cualquier material de este sitio web, incluyendo la redirección a otro sitio.\n\n
+ (e) Usted no debe recoger ni divulgar o transferir de cualquier modo información o datos de carácter personal de los miembros.\n\n
+(f) Usted no debe utilizar el sitio o los servicios del sitio web para contratar o solicitar a los usuarios cuestiones diferentes de las previstas en el sitio web.\n\n
+(g) Usted no debe publicar información falsa, engañosa, difamatoria, o que tenga un contenido difamatorio.\n\n
+(h) usted no debe usar nuestro sitio de ninguna manera que cause, o pueda causar, daños al sitio o el menoscabo de disponibilidad o accesibilidad del sitio o de cualquier manera que sea ilegal, fraudulenta o perjudicial, o en conexión con cualquier actividad o propósito ilegal, fraudulento o perjudicial.\n\n
+Mandaditos D-Volada se reserva el derecho de cerrar y/o cancelar la cuenta de usuario si tal miembro no cumple con las prohibiciones mencionadas o, incluso, sin ninguna razón en particular.\n\n
+.
+6. REGISTRO / CUENTA DE MIEMBRO\n\n
+Como condición para convertirse en un miembro del sitio, incluyendo el uso de herramientas, aplicaciones y servicios, el usuario debe registrarse en el sitio y está obligado a proporcionar la contraseña y una dirección de correo electrónico. Debe completar el proceso de registro y debe facilitar una información de registro precisa, completa y actualizada, así como aceptar la política de privacidad.\n\n
+Usted es el único responsable de mantener la confidencialidad de su contraseña.\n\n
+Usted se compromete a notificarnos inmediatamente si sospecha de cualquier uso no autorizado de su cuenta o acceso a su cuenta y contraseña. Usted, como miembro, es el único responsable de cualquier y todo uso de su cuenta y perfil.
+No debe transmitir “virus” o cualquier código de naturaleza destructiva. Cualquier información proporcionada por usted o recogida por el sitio o por parte de terceros durante cualquier visita en el sitio, estará sujeta a los términos de la política de privacidad de Mandaditos D-Volada.
+No puede crear una cuenta con identidad falsa en nuestro sitio, y no puede registrar más de una cuenta por miembro. Tampoco puede abrir una cuenta en nombre de otra persona que no sea usted, ni siquiera en nombre de cualquier otro grupo o entidad.
+
+7. COMUNICACIONES Y OTROS MATERIALES PUBLICADOS POR USTED.\n\n
+Usted es responsable por el contenido de su perfil, comunicaciones, mensajes y listas de servicios y sus consecuencias. Nos reservamos el derecho de cancelar su cuenta/perfil si nos damos cuenta, a nuestra única discreción, que usted está violando cualquiera de las directrices establecidas en este acuerdo y en la política de privacidad. Aunque queremos fomentar un intercambio confiable, divertido y abierto de información y servicios, sin embargo, no tenemos control sobre los perfiles de los miembros, la comunicación, los mensajes, anuncios y servicios ni tenemos que revisar explícitamente la actividad que se lleva a cabo dentro y fuera de nuestro sitio. Nosotros no avalamos ni garantizamos el tipo, integridad o calidad de los servicios que surgen como resultado de las conexiones realizadas entre los miembros de Mandaditos D-Volada.\n\n
+Al participar e incluir su perfil y servicios en Mandaditos D-Volada, usted entiende y acepta no publicar o transmitir material que, a nuestro juicio, sea difamatorio, abusivo, obsceno, amenazador o de cualquier manera ilegal, o cualquier material que infrinja los derechos de los demás usuarios o que contenga cualquier “virus” o código dañino que pueda interferir o dañar el sitio o de alguna manera interrumpir la capacidad de otros para utilizar y/o disfrutar del mismo. Nos reservamos el derecho de borrar, mover o editar cualquier perfil de usuario registrado, anuncios o información que vienen a nuestra atención que nos parezcan inaceptables o inapropiados, ya sea por razones legales o por cualquier otra razón.\n\n
+
+8. DERECHOS DE PROPIEDAD INTELECTUAL\n\n
+
+Mandaditos D-Volada permite a los usuarios conectarse e intercambiar servicios, información, mensajes y fotos relacionados con tiendas y servicios. Los materiales y la información disponible en el sitio seguirá siendo propiedad de Mandaditos D-Volada.com, y están protegidos por derechos de autor, marcas registradas y otras leyes de propiedad intelectual.\n\n
+Usted reconoce que todos los derechos, información, incluyendo pero no limitado a los derechos comprendidos en la ley de propiedad intelectual en y para el sitio, y que usted no adquirirá ningún derecho, título o interés en o para el sitio, excepto lo expresamente establecido en el presente acuerdo.\n\n
+Usted no podrá modificar, adaptar, traducir, preparar trabajos derivados, descompilar descifrar, realizar ingeniería inversa, desmontar o intentar obtener el código fuente de cualquiera de nuestros servicios, software o documentación, o crear o intentar crear un sustituto o un servicio similar o producto a través del uso de o acceso al programa o información de propiedad relacionados con los mismos.\n\n
+
+9. CONFIDENCIALIDAD\n\n
+Usted se compromete a no divulgar la información que obtenga de nosotros y de nuestros usuarios de Mandaditos D-Volada. Toda la información enviada a un usuario final es de conformidad con la información propietaria de Mandaditos D-Volada.\n\n
+
+10. NO CESIÓN DE DERECHOS\n\n
+Sus derechos de cualquier naturaleza, no se pueden asignar ni transferir a nadie, y cualquier intento de este tipo puede derivar en la terminación de este acuerdo, sin responsabilidad para Mandaditos D-Volada.\n\n
+
+11. RENUNCIA\n\n
+La falta por parte de Mandaditos D-Volada de impartir el estricto cumplimiento de cualquiera de los términos, condiciones y cláusulas del presente documento no se considerará una renuncia de cualquier derecho o remedio, ni deberá interpretarse como una renuncia de cualquier incumplimiento posterior de los términos, condiciones o pactos de este acuerdo ya que las términos, condiciones y cláusulas continuarán siendo en pleno vigor y efecto.\n\n
+
+12. INFORMACIÓN\n\n
+La información publicada por los miembros no refleja necesariamente el punto de vista de Mandaditos D-Volada.\n\n
+
+13. JURISDICCIÓN\n\n
+Cualquier disputa, controversia o diferencia que surja entre las partes fuera de, en relación a, o en conexión con este acuerdo será sometida irrevocablemente a la jurisdicción exclusiva de los tribunales competentes en la Ciudad de México, con exclusión de cualquier otro tribunal.\n\n
+El presente acuerdo se regirá e interpretará de acuerdo con las leyes vigentes en la Ciudad de México. El acuerdo describe y comprende la totalidad del acuerdo entre usted y nosotros, y sustituye todos los acuerdos anteriores o contemporáneos, representaciones, garantías y entendimientos con respecto al sitio, el contenido y los materiales proporcionados por través del sitio, y el objeto de este acuerdo.\n\n
+
+14. ACTIVIDADES DE TERCEROS\n\n
+Mandaditos D-Volada y los Miembros, saben y reconocen que ciertas actividades y beneficios que se pueden encontrar en la Aplicación y red Mandaditos D-Volada, son prestados bajo responsabilidad de terceros, incluyendo sin limitación:\n\n
+</string>
+
+    <string name="developer">Desarrollado por Linkers Consultings</string>
+    <!--Avisos de privacidad -->
+    <string name="Notice_of_Privacy">Mandaditos D-Volada\n\n
+        Aviso Dirigido a los titulares de datos personales que obran en posesión de Mandaditos D-Volada, así como cualquiera de los medios de comunicación, sitios web, aplicaciones, empresas afiliadas, filiales y subsidiarias y actividades de los mismos.\n\n
+
+1. Público en General\n\n
+Mandaditos D-Volada es un grupo de empresas y medios, de acceso público, a través de los cuales diversas personas, sin relación comercial, jurídica o personal con el grupo podrían exponer, o proveer información que podría tener el carácter de personal.\n
+Toda la información que cualquier persona proporcione, será con carácter de voluntario, y dentro de lo posible será tratado de forma reservada, o anonimizada. Los comentarios, expresiones y opiniones vertidos en medios de comunicación, redes sociales, y cualquier medio de Mandaditos D-Volada, son responsabilidad de la persona que los exprese, y cuya privacidad e identidad son responsabilidad del emisor.\n\n
+Mandaditos D-Volada, a petición de cualquier persona del público en general, cuando proceda podrá cancelar o rectificar los datos personales que existan o se divulguen en los medios de comunicación del grupo.\n
+
+1.1. Datos a recabar\n\n
+Sólo datos proporcionados de forma voluntaria, como anónimos, o como anonimizados.\n\n
+
+1.2. Tratamiento de Datos Personales\n\n
+Los datos personales serán cancelados o rectificados a petición del titular. Las opiniones y comentarios son responsabilidad del emisor en todo momento.\n
+Mandaditos D-Volada podrá transferir los datos personales que obren en sus bases de datos a cualesquiera de las empresas controladoras de esta última y/o  a sus empresas filiales y/o subsidiarias e incluso a terceras personas, nacionales o extranjeras, salvo que los titulares respectivos manifiesten expresamente  su oposición, en términos de lo dispuesto por la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (la Ley).\n\n
+
+2. Usuarios, Clientes y Suscriptores.\n\n
+Se considera como Cliente o Suscriptor a todo tipo de personas que por motivo de una relación jurídica o comercial con Mandaditos D-Volada, ya sea por la suscripción, adquisición, o participación regular en los medios de información del grupo.\n\n
+
+2.1. Datos a Recabar\n\n
+Mandaditos D-Volada puede recabar datos personales como nombre, domicilio, catos de contacto y demás de sus Clientes y Usuarios, con la finalidad de permitir su identificación, la provisión de los servicios o bienes que adquiera o requiera del grupo, así como para fines de facturación, cobranza y crédito.\n\n
+
+2.2. Tratamiento.\n\n
+Los datos personales, financieros y de contacto de Clientes y Suscriptores, se conservarán bajo reserva y con medios de protección para evitar su divulgación accidental o malintencionada, usando los medios razonables y adecuados para ello.\n
+Los Clientes y Suscriptores que así lo soliciten, podrán solicitar la corrección de sus datos personales. Una vez concluida en definitiva la relación comercial y jurídica entre Mandaditos D-Volada y el Cliente o Suscriptor solicitante, este podrá solicitar la cancelación o corrección de sus datos personales. Previa identificación, todo Cliente o Suscriptor podrá solicitar el acceso a sus datos personales.\n\n
+
+3. Proveedores, prestadores de servicios, Personal.\n\n
+Se considera Proveedor a toda persona, empresa, asociación o agrupación de cualquier tipo que, sin formar parte del Grupo Mandaditos D-Volada, presta servicios, vende bienes o productos, o provee bienes y servicios a cualquier medio, empresa o parte del Grupo Mandaditos D-Volada.\n\n
+
+3.1. Datos a Recabar.\n\n
+Mandaditos D-Volada puede recabar de los Proveedores del Grupo, información legal, contable, fiscal, de contacto y laboral, dependiendo de la relación contractual o comercial con el Proveedor.\n
+Los Proveedores estarán obligados notificar a Mandaditos D-Volada de cualquier cambio en su información.\n\n
+
+3.2. Tratamiento.\n\n
+Mandaditos D-Volada conservará la información como reservada o confidencial y limitará su divulgación a la necesaria para los fines de la relación comercial con el Proveedor, fines de cobranza, facturación, laboral y otras.\n
+Mandaditos D-Volada dará, a la información de proveedores, el tratamiento que establezcan las leyes fiscales, mercantiles y civiles.\n\n
+
+4.0. Datos Personales.\n\n
+En el ejercicio de su labor de estadística, Mandaditos D-Volada podría recabar, de terceros o de fuente públicas, información personal, misma que sólo divulgará cuando dicha información sea indisoluble del derecho de información de interés público y general.\n\n
+
+Mandaditos D-Volada evitara recabar y divulgar información sensible de ninguna persona, pública o privada sin su consentimiento.\n\n
+
+4.1. Tratamiento.\n\n
+Mandaditos D-Volada tratará la información, dando prioridad relativa a la privacidad de las personas privadas, frente al derecho a la información de la población; y privilegiando el derecho a la información plural, veraz, objetiva y oportuna, frente la privacidad de las personas públicas.\n
+En todo caso, Mandaditos D-Volada sólo divulgará información personal que sea indisoluble de la información de interés público, frente al derecho a la información plural, veraz, objetiva y oportuna de toda persona.\n\n
+
+5. Medios de Acceso, Corrección y Cancelación de Datos Personales.\n\n
+Toda persona interesada en tener acceso, rectificación, corrección o cancelación de sus datos personales, deberá enviar su solicitud a:\n\n
+
+Correo: linkersconsultingdma@mgmail.com\n
+Dirección: Prolongación de México Olímpico, #92,\n
+Col. Villa Hidalgo,\n
+Michoacan, Ciudad Hidalgo, C.P. 61154\n
+México\n\n
+
+Los titulares podrán ejercer los derechos que les confiere la Ley. Todas las solicitudes deberán:\n\n
+
+• Incluir el nombre y firma autógrafa del titular, así como un domicilio u otro medio de contacto para comunicarle la respuesta a su solicitud.\n\n
+• Acreditar la identidad del titular.\n
+• Descripción clara y precisa de los datos personales respecto de los cuales ejecutara los derechos que les confiere.\n\n
+• Incluir cualquier elemento o documento que facilite la localización de los datos personales que se traten.\n\n
+
+Mandaditos D-Volada, se reserva el derecho de cambiar, modificar, complementar y /o alterar el presente aviso, en cualquier momento, en cuyo caso se hará de su conocimiento a través  de cualquiera de los medios que establece la legislación en la materia.\n</string>
+
+    //Error
+    <string name="attendance_error">Mandad</string>
+    <string name="attendance_error_try_again">Error vuelve a intentarlo</string>
+    <string name="update_request_message">Actualiza la app para tener la máxima experiencia con Mandaditos D-Volada en tu Android</string>
+    <string name="update_request_settings">Debes de activar tu ubicacion para poder crear tu Asistencia. Dirijete a ajustes y activa tu ubicacion.</string>
+    <string name="error_email">Agrega un correo correcto y vuelve a intentarlo</string>
+    <string name="error_password">Error de contraseña vuelve a intentarlo</string>
+    <string name="error_confirm_password">Error al confirmar contraseña vuelve a intentarlo</string>
+    <string name="error_password_do_not_match">Contraseña y Confirmar contraseña no coinciden</string>
+    <string name="error_singed_up_failed">¡Registro fallido!</string>
+    <string name="error_successfully_singed_up">Registrado con éxito</string>
+    <string name="error_delete">No se agregó, vuelve a intentarlo</string>
+
+    //Location
+    <string name="location_title">Cargando...</string>
+    <string name="location_city">CIUDAD</string>
+
+    //Error
+    <string name="error_try_again_later">Ups! ocurrio un error, vuelve a intentarlo</string>
+
+    <!-- Todo: Wifi -->
+    <string name="no_wifi">No se pudo conectar...</string>
+    <string name="alert_no_wifi">No está conectado a internet, verifica tu conexión</string>
+
+    <!-- Register -->
+    <string name="register_title">Agrega tus datos de perfil</string>
+    <string name="register_date">Fecha de nacimiento</string>
+    <string name="register_gender">Género</string>
+    <string name="register_next">Siguiente</string>
+    <string name="female_option">Mujer</string>
+    <string name="male_option">Hombre</string>
+    <string name="register_email">Correo</string>
+    <string name="register_email_title">Agrega tú correo electrónico y contraseña para poder continuar</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="signed">Registrar</string>
+    <string name="sign_up">Registrate</string>
+    <string name="already_have_an_account_login">¿Ya tienes una cuenta? Inicia sesión</string>
+    <string name="name">Nombre</string>
+
+    <!-- Login -->
+    <string name="login_subtitle">¡Unete a Mandaditos D-Volada, es gratis!</string>
+    <string name="login_title">¿Que esperas?</string>
+
+    <!-- Todo: Onboarding -->
+    <string name="onboarding_slide1_subtitle">Solo Mandaditos D-Volada ofrece las mejores entregas más rapidas y efectivas.</string>
+    <string name="onboarding_slide2_subtitle">Rastaurantes, farmacias, todo en una sola app.</string>
+    <string name="onboarding_slide3_title">Pagos de servicios hasta tu casa.</string>
+    Con solo mostrando en la tienda el cupón con la oferta que quieras cambiar, la tienda te
+    escaneara tu QR de tu cupón, y listo tu descuento se aplica. ¡Diviértete!
+
+    <string name="next">Continuar</string>
+    <string name="skip">Omitir</string>
+    <string name="get_started">Continuar</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+
+    <!-- Todo: Assistence-->
+    <string name="name_app">Mandaditos D-Volada</string>
+    <string name="assistence_subtitle">¿Qué mandadito necesita o que le llevamos?</string>
+    <string name="load_search_descripcion">Espera un momento por favor, te estamos conectando con nuestro servico más cercano.</string>
+
+    <!-- Todo: Select location-->
+    <string name="Select_location_what_location">¿Quiero otra ubicación?</string>
+    <string name="Select_location_my_location">Mi ubicación</string>
+    <string name="Select_location_text_my_location">Solicitar en mi ubicación</string>
+    <string name="Select_location_select_location">Buscar otra ubicación</string>
+    <string name="Select_send_assistance_location">Envía la ubicación a donde necesitas tu asistencia.</string>
+    <string name="erro_phone">Agregar un numero de teléfono</string>
+
+    <!-- Todo: Confirm location-->
+    <string name="confirm_location_wait">Espera un momento, estan aceptando tu asistencia</string>
+    <string name="notification_of_delivery">Termina tu mandadito</string>
+    <string name="min">%s min</string>
+
+    <!-- Todo: data assistence-->
+    <string name="data_assistence_sent_data">Mandaditos D-Volada</string>
+    <string name="data_assistence_next">Continuar</string>
+    <string name="data_assistence_what">¿Que necesitas?</string>
+    <string name="data_assistence_description">Describe en que te podemos ayudar.</string>
+    <string name="data_assistence_i_need_help">Requiero:</string>
+    <string name="data_assistence_phone">Teléfono</string>
+    <string name="data_assistence_error_sent">Ups! ocurrio un error, vuelve a intentarlo</string>
+    <string name="data_assistence_erequest_sent">Solicitud enviada, Espera un momento...</string>
+    <string name="data_assistence_alert_empty">Debes de llenar los campos vacíos, para brindarte un mejor servicio.</string>
+    <string name="data_assistence_alert_empty_phone">Debes de llenar los campos de teléfono, para brindarte un mejor servicio.</string>
+    <string name="data_assistence_finish">TERMINAR</string>
+    <string name="data_assistence_price">aceptar servicio</string>
+    <string name="data_assistence_accept_assistence">Se acepto la Asistencia, en un momento nos vemos</string>
+    <string name="estimated_delivery">Entrega estimada</string>
+
+    <!-- Todo: Abount-->
+    <string name="abount_phone_whatsapp">Whatsapp</string>
+
+    <!-- Todo: Location Store -->
+    <string name="location_store_empty">Selecciona una ubicación\n-Presiona el PIN\n-Presiona el boton de Google Maps</string>
+    <string name="select_location_empty">Selecciona donde deseas cambiar tus cupones</string>
+
+
+    //Taxi
+    <string name="profile_taxi_take_transport">Taxi seguro</string>
+    <string name="profile_taxi_site">Sitio:</string>
+    <string name="profile_taxi_car">Automóvil:</string>
+    <string name="profile_taxi_ranking">Calificación:</string>
+    <string name="profile_taxi_call">Llamar</string>
+    <string name="profile_taxi_schedule">Horario:</string>
+    <string name="coupon_store">Cupón Store</string>
+    <string name="coupon_store_did_not_services">No encontramos servicios de esta categoría</string>
+    <string name="coupon_store_did_not_services_fot_location">No encontramos este tipo de categoría para tú zona</string>
+    <string name="taxi_no_available">Por el momento no hay cupones disponibles para tu zona</string>
+    <string name="taxi_not_available">No encontramos taxistas disponibles en este momento para tu zona</string>
+    <string name="coupon_last_promotion">No encontramos novedades para tú zona</string>
+    <string name="taxi_whatsapp">Enviar whatsapp</string>
+    <string name="taxi_call">llamar</string>
+    <string name="taxi_available">Disponible</string>
+
+</resources>

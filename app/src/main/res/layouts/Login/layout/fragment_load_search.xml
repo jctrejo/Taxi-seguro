@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray_blue">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout20"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:background="@color/bg_gray_blue"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="30dp"
+
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/load_search_descripcion"
+            android:textAlignment="center"
+            android:textColor="@color/bg_black_last_event"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/searchResultTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView61"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/leadSearchButton"
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_gradient_blue_vertical_radiu"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/white"
+        android:textSize="9sp"
+        app:layout_constraintEnd_toEndOf="@+id/loadSearchMapView"
+        app:layout_constraintStart_toStartOf="@+id/loadSearchMapView"
+        app:layout_constraintTop_toTopOf="@+id/loadSearchMapView" />
+
+    <fragment
+        android:id="@+id/loadSearchMapView"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/animationLoadSearch" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationLoadSearch"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="center"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout20"
+        app:layout_constraintEnd_toEndOf="@+id/loadSearchMapView"
+        app:layout_constraintStart_toStartOf="@+id/loadSearchMapView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/radar_loading" />
+</androidx.constraintlayout.widget.ConstraintLayout>

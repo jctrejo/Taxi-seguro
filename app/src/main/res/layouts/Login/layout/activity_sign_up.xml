@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.signup.SignUpActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_while"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar8">
+
+        <EditText
+            android:id="@+id/etSEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:autofillHints="emailAddress"
+            android:background="@drawable/gray_btn_margin"
+            android:ems="10"
+            android:hint="@string/register_email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:paddingStart="@dimen/size_padding_margin_20"
+            android:textColorHint="@color/color_hint" />
+
+        <EditText
+            android:id="@+id/etSPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:autofillHints="password"
+            android:background="@drawable/gray_btn_margin"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:paddingStart="@dimen/size_padding_margin_20"
+            android:textColorHint="@color/color_hint" />
+
+        <EditText
+            android:id="@+id/etSConfPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:autofillHints="password"
+            android:background="@drawable/gray_btn_margin"
+            android:ems="10"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:paddingStart="@dimen/size_padding_margin_20"
+            android:textColorHint="@color/color_hint" />
+
+        <Button
+            android:id="@+id/btnSigned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/blue_stroke_margin"
+            android:text="@string/signed"
+            android:theme="@style/backgroundAppButton" />
+
+        <TextView
+            android:id="@+id/tvRedirectLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/already_have_an_account_login"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/signed"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

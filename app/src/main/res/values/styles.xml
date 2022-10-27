@@ -1,0 +1,178 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:actionBarTabStyle">@color/colorPrimary</item>
+        <item name="windowActionBar">true</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+
+
+
+
+    <!-- TextView Black. -->
+
+    <style name="TextViewBoldBlack" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+    <style name="TextViewMediumBlack" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+    </style>
+    <style name="TextViewExtraLightBlack" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:fontFamily">@font/montserrat_extralight</item>
+    </style>
+    <style name="TextViewRegularBlack" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+    <style name="TextViewThinBlack" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:fontFamily">@font/montserrat_thin</item>
+    </style>
+
+    <!-- TextView Blue. -->
+
+    <style name="TextViewBoldBlue" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+    <style name="TextViewMediumBlue" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+    </style>
+    <style name="TextViewExtraLightBlue" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/montserrat_extralight</item>
+    </style>
+    <style name="TextViewRegularBlue" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+    <style name="TextViewThinBlue" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/montserrat_thin</item>
+    </style>
+
+    <!-- TextView White. -->
+
+    <style name="TextViewBoldWhite" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+    <style name="TextViewMediumWhite" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+    </style>
+    <style name="TextViewExtraLightWhite" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+        <item name="android:fontFamily">@font/montserrat_extralight</item>
+    </style>
+    <style name="TextViewRegularWhite" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+    <style name="TextViewThinWhite" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+        <item name="android:fontFamily">@font/montserrat_thin</item>
+    </style>
+
+    <!-- TextView Gray. -->
+
+    <style name="TextViewBoldGray" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/secondary_text_dark</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+    <style name="TextViewMediumGray" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/secondary_text_dark</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+    </style>
+    <style name="TextViewExtraLightGray" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/secondary_text_dark</item>
+        <item name="android:fontFamily">@font/montserrat_extralight</item>
+    </style>
+    <style name="TextViewRegularGray" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/secondary_text_dark</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+    <style name="TextViewThinGray" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/secondary_text_dark</item>
+        <item name="android:fontFamily">@font/montserrat_thin</item>
+    </style>
+
+    <!-- Button Rounded Filled Blue. -->
+
+    <style name="ButtonRoundedFilledBlue" parent="android:Widget.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/blue_filled_margin</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Button Rounded Clear Blue. -->
+
+    <style name="ButtonRoundedClearBlue" parent="android:Widget.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@drawable/blue_stroke_margin</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Button Rounded Clear Blue. -->
+
+    <style name="ButtonRoundedClearBlack" parent="android:Widget.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/black_stroke_margin</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <!-- Button AlertCostum. -->
+
+    <style name="ButtonAlertCustum" parent="android:Widget.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/bg_gray_dark</item>
+        <item name="android:background">@drawable/bg_search</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:height">35dp</item>
+        <item name="android:width">100dp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Background button -->
+    <style name="backgroundAppButton" parent="android:Widget.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@drawable/blue_stroke_margin</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Background editText -->
+    <style name="backgroundAppEditText" parent="">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@drawable/gray_btn_margin</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:hint">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+</resources>

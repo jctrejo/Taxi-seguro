@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.seguro.taxis">
+    <!-- APP PERMISSIONS -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+
+    <permission
+        android:name="com.github.hathibelagal.pn.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.github.hathibelagal.pn.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.seguro.taxis.ui.signup.SignUpActivity"
+            android:exported="false" />
+        <activity android:name="com.seguro.taxis.ui.login.LoginEmailActivity" />
+        <activity
+            android:name="com.seguro.taxis.ui.view.activity.OnBoardingActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name="com.seguro.taxis.ui.register.RegisterActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.seguro.taxis.ui.webview.WebViewActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- FACEBOOK CONFIGURATION -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider2214321988638049"
+            android:exported="true" /> <!-- SPLASH -->
+        <activity
+            android:name="com.seguro.taxis.ui.splash.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.seguro.taxis.ui.login.LoginOptionsActivity"
+            android:label="@string/app_name" /> <!-- MAIN -->
+        <activity
+            android:name="com.seguro.taxis.ui.main.MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.seguro.taxis.ui.configuration.profile.ProfileMainActivity"
+            android:screenOrientation="locked" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_logo" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/attendance_error" />
+    </application>
+
+</manifest>

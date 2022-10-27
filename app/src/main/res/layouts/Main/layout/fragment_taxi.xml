@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_gradient_blue_vertical"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <fragment
+        android:id="@+id/map_container"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar6"
+        tools:context=".MapsActivity" />
+
+    <TextView
+        android:id="@+id/rowLocationGasScheduleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/profile_taxi_take_transport"
+        android:textColor="@color/alert_default_icon_color"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/toolbar6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar6" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvTakeTransport"
+        android:layout_width="0dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="10dp"
+        android:background="@color/imagen_profile_clear"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/map_container"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:listitem="@layout/row_taxi" />
+</androidx.constraintlayout.widget.ConstraintLayout>

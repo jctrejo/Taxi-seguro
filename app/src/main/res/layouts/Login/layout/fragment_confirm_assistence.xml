@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <fragment
+        android:id="@+id/map_container"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="180dp"
+        app:layout_constraintBottom_toBottomOf="@+id/constraintLayout11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".MapsActivity" />
+
+    <Button
+        android:id="@+id/finishAssistenceButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_gradient_red_corner"
+        android:text="@string/data_assistence_finish"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout11"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/acceptPriceAssistenceButton"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/btn_gradient_green_corner"
+        android:text="@string/data_assistence_price"
+        android:textSize="12sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/cancelAsistenceButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/space"
+        app:layout_constraintTop_toTopOf="@+id/cancelAsistenceButton" />
+
+    <Button
+        android:id="@+id/cancelAsistenceButton"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/gender_button_border"
+        android:text="Cancelar Asistencia"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout11"
+        app:layout_constraintEnd_toStartOf="@+id/space"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container_time"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bg_while_radius"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/estimated_delivery"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/delivery_time_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="@color/quantum_amber900"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout11"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bg_map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/succesImageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/com_facebook_button_like_icon_selected"
+            android:tint="@color/colorPrimaryDark"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/title_driver_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="Repartidor"
+            android:textColor="@color/bg_gray_dark"
+            android:textSize="10sp"
+            app:layout_constraintStart_toStartOf="@+id/constraintLayout12"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout12" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="Creado 07:00 p.m."
+            android:textColor="@color/bg_gray_dark"
+            android:textSize="10sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout5" />
+
+        <TextView
+            android:id="@+id/nameDriveTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toStartOf="@+id/phone_image_view"
+            app:layout_constraintStart_toStartOf="@+id/title_driver_text_view"
+            app:layout_constraintTop_toBottomOf="@+id/title_driver_text_view" />
+
+        <TextView
+            android:id="@+id/titleStatusTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/montserrat_extrabold"
+            android:text="@string/confirm_location_wait"
+            android:textAlignment="textStart"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView11"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout5"
+            android:layout_width="50dp"
+            android:layout_height="2dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="1dp"
+            android:background="@color/bg_gray_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout12"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleStatusTextView">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/phone_image_view"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="15dp"
+            android:tint="@color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/whatsapp_image_view"
+            app:layout_constraintEnd_toStartOf="@+id/whatsapp_image_view"
+            app:layout_constraintTop_toTopOf="@+id/whatsapp_image_view"
+            app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+        <ImageView
+            android:id="@+id/whatsapp_image_view"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/nameDriveTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/nameDriveTextView"
+            app:srcCompat="@drawable/ic_whatsapp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Space
+        android:id="@+id/space"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/container_time" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
